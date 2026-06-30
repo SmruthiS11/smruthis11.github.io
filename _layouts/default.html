@@ -2,29 +2,29 @@
 <html lang="en">
 
 <head>
-    <!-- Basic page information -->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- The page title changes automatically -->
     <title>{{ page.title }} | {{ site.title }}</title>
 
-    <!-- Main stylesheet -->
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
 </head>
 
 <body>
 
-    <!-- Navigation bar -->
-    {% include navbar.html %}
+    <div class="container">
 
-    <!-- Main page content -->
-    <main class="container">
-        {{ content }}
-    </main>
+        {% include navbar.html %}
 
-    <!-- Footer -->
-    {% include footer.html %}
+        <main>
+            {{ content }}
+        </main>
+
+        {% include footer.html %}
+
+    </div>
 
 </body>
 
