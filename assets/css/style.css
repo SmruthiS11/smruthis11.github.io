@@ -93,3 +93,113 @@ main {
 
     border-top: 1px solid #e5e5e5;
 }
+
+/* ==========================================
+   HERO SECTION
+========================================== */
+
+.hero {
+
+    min-height: 75vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+}
+
+.hero h1 {
+
+    font-size: 4rem;
+
+    margin-bottom: .5rem;
+}
+
+.tagline {
+
+    font-size: 1.3rem;
+
+    color: #666;
+
+    margin-bottom: 1.5rem;
+}
+
+.intro {
+
+    max-width: 650px;
+
+    margin-bottom: 2.5rem;
+
+    font-size: 1.1rem;
+}
+
+.button {
+
+    display: inline-block;
+
+    padding: 14px 30px;
+
+    border: 1px solid #222;
+
+    border-radius: 999px;
+
+    text-decoration: none;
+
+    color: #222;
+
+    transition: .3s;
+}
+
+.button:hover {
+
+    background: #222;
+
+    color: white;
+}
+
+/* ==========================================
+   HOMEPAGE CARDS
+========================================== */
+
+.cards {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+    gap: 2rem;
+
+    margin: 5rem 0;
+}
+
+.card {
+
+    background: white;
+
+    border-radius: 16px;
+
+    padding: 2rem;
+
+    text-decoration: none;
+
+    color: inherit;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,.05);
+
+    transition: .25s;
+}
+
+.card:hover {
+
+    transform: translateY(-8px);
+}
+
+.card h2 {
+
+    margin-bottom: 1rem;
+}
