@@ -1,0 +1,24 @@
+title: Smruthi S Varier
+description: Explore my Research | Reviews | Writing
+theme: minima
+
+markdown: kramdown
+
+collections:
+  books:
+    output: true
+
+  movies:
+    output: true
+
+  places:
+    output: true
+
+  projects:
+    output: true
+
+  publications:
+    output: true
+
+  articles:
+    output: true
